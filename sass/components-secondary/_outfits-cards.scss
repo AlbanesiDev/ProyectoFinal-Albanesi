@@ -1,0 +1,152 @@
+.bg-c-b {
+    background-color: rgb(240, 240, 240);
+}
+
+.bg-urban {
+    display: inline;
+    transition: all 0.6s;
+
+    &:hover {
+        transition: all 0.3s;
+        text-shadow: -2px 0px 5px rgba(0, 81, 255, 0.6);
+    }
+}
+
+.bg-nomad {
+    display: inline;
+    transition: all 0.6s;
+
+    &:hover {
+        transition: all 0.3s;
+        text-shadow: -2px 0px 5px rgba(255, 103, 18, 0.60);
+    }
+}
+
+.bg-outfit-card {
+    background-color: white;
+    border: 20px solid white;
+    border-radius: 20px;
+    transition: all 0.4s;
+    box-shadow: 1px 11px 21px -1px #00000021;
+    margin-bottom: 30px;
+
+    img {
+        border-radius: 20px;
+    }
+
+    &:hover {
+        box-shadow: 1px 11px 21px -1px #00000041;
+        transform: translateY(-3%);
+    }
+
+    .card-body {
+        a {
+            display: flex;
+            justify-content: center;
+            border-radius: 10px;
+            color: #ff6712;
+        }
+    }
+
+}
+
+.nomad-banner {
+    border-radius: 20px;
+    max-width: 91.5%;
+}
+
+.tilting-card-wrapper {
+    position: relative;
+    aspect-ratio: 3/4.11;
+    .mouse-position-tracker {
+        position: absolute;
+        width: calc(100% / 3);
+        height: calc(100% / 3);
+        z-index: 1;
+    }
+    .tilting-card-body {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        --perspective: 1500px;
+        --rotationX: 0;
+        --rotationY: 0;
+        --rotationZ: 0;
+        --angle: 5deg;
+        transform: perspective(var(--perspective)) rotateX(var(--rotationX)) rotateY(var(--rotationY)) rotateZ(var(--rotationZ));
+        transition: transform 500ms ease;
+        img {
+            max-width: 91.3%;
+            border-radius: 20px;
+            box-shadow: 1px 11px 21px -1px #00000021;
+        }
+    }
+}
+
+
+
+
+
+
+/* 1st, 4th, 7th */
+.mouse-position-tracker:nth-child(3n - 2) {
+    left: 0;
+}
+
+/* 2nd, 5th, 8th */
+.mouse-position-tracker:nth-child(3n - 1) {
+    left: calc(100% / 3);
+}
+
+/* 2nd, 5th, 8th */
+.mouse-position-tracker:nth-child(3n) {
+    right: 0;
+}
+
+/* 4 to 6 */
+.mouse-position-tracker:nth-child(n + 4):nth-child(-n + 6) {
+    top: calc(100% / 3);
+}
+
+/* 7 to 9 */
+.mouse-position-tracker:nth-child(n + 7):nth-child(-n + 9) {
+    bottom: 0;
+}
+
+
+
+.mouse-position-tracker:nth-child(1):hover~.tilting-card-body {
+    --rotationX: var(--angle);
+    --rotationY: calc(var(--angle) * -1);
+}
+
+.mouse-position-tracker:nth-child(2):hover~.tilting-card-body {
+    --rotationX: var(--angle);
+}
+
+.mouse-position-tracker:nth-child(3):hover~.tilting-card-body {
+    --rotationX: var(--angle);
+    --rotationY: var(--angle);
+}
+
+.mouse-position-tracker:nth-child(4):hover~.tilting-card-body {
+    --rotationY: calc(var(--angle) * -1);
+}
+
+.mouse-position-tracker:nth-child(6):hover~.tilting-card-body {
+    --rotationY: var(--angle);
+}
+
+.mouse-position-tracker:nth-child(7):hover~.tilting-card-body {
+    --rotationY: calc(var(--angle) * -1);
+    --rotationX: calc(var(--angle) * -1);
+}
+
+.mouse-position-tracker:nth-child(8):hover~.tilting-card-body {
+    --rotationX: calc(var(--angle) * -1);
+}
+
+.mouse-position-tracker:nth-child(9):hover~.tilting-card-body {
+    --rotationY: var(--angle);
+    --rotationX: calc(var(--angle) * -1);
+}

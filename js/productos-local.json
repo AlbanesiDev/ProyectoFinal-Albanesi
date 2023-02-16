@@ -1,0 +1,90 @@
+[
+  {
+    "id": "1",
+    "nombre": "REMERA THE HUNDREDS FOREVER WILDFIRE",
+    "sku": "rem_23",
+    "color": "Bordo",
+    "precio": 6700,
+    "img": "/images/products/01-men/item-11.webp",
+    "categoria": "remeras",
+    "genero": "hombre",
+    "talle": "M"
+  },
+  {
+    "id": 3,
+    "nombre": "ZAPATILLA VANS SK8-HI TAPERED STACKFORM",
+    "sku": 0,
+    "color": "blanco",
+    "precio": 7990,
+    "img": "/images/products/03-shop/item-02 - copia.webp",
+    "categoria": "zapatillas",
+    "genero": "mujer",
+    "talle": "37"
+  },
+  {
+    "id": 2,
+    "nombre": "ZAPATILLA PALLADIUM REVOLT HI TX",
+    "sku": 0,
+    "color": "violeta",
+    "precio": 7990,
+    "img": "/images/products/02-woman/item-07.webp",
+    "categoria": "zapatillas",
+    "genero": "mujer",
+    "talle": "40"
+  },
+  {
+    "id": 4,
+    "nombre": "JOCKEY THRASHER SNAPBACK",
+    "sku": 0,
+    "color": "verde",
+    "precio": 2990,
+    "img": "/images/products/03-shop/item-02.webp",
+    "categoria": "gorras",
+    "genero": "unisex",
+    "talle": "S"
+  },
+  {
+    "id": 7,
+    "nombre": "POLERON FEXPRO PACMAN NEON LOGO",
+    "sku": 0,
+    "color": "negro",
+    "precio": 12990,
+    "img": "/images/products/03-shop/item-14 - copia.webp",
+    "categoria": "buzos",
+    "genero": "mujer",
+    "talle": "S"
+  },
+  {
+    "id": 5,
+    "nombre": "JOCKEY THRASHER SNAPBACK MAG LOGO OLD",
+    "sku": 0,
+    "color": "negro",
+    "precio": 2990,
+    "img": "/images/products/03-shop/item-03.webp",
+    "categoria": "gorras",
+    "genero": "unisex",
+    "talle": ""
+  },
+  {
+    "id": 6,
+    "nombre": "Mochila Jordan Jam Flight",
+    "sku": 0,
+    "color": "beige",
+    "precio": 34899,
+    "img": "/images/products/03-shop/item-10 copia.webp",
+    "categoria": "accesorios",
+    "genero": "unisex",
+    "talle": ""
+  },
+  {
+    "id": 8,
+    "nombre": "ZAPATILLA KAPPA AUTHENTIC CLEVELAND",
+    "sku": 0,
+    "color": "blanco",
+    "precio": 34990,
+    "img": "/images/products/03-shop/item-15.webp",
+    "categoria": "zapatillas",
+    "genero": "hombre",
+    "talle": "40"
+  }
+]

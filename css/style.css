@@ -1,0 +1,1161 @@
+/*-------------Home-------------*/
+@font-face {
+  font-family: "kanit";
+  src: url(/fonts/kanit/Kanit-ExtraLight.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "kanit-light";
+  src: url(/fonts/kanit/Kanit-Light.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "kanit-semiBold";
+  src: url(/fonts/kanit/Kanit-SemiBold.ttf);
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "khula";
+  src: url(/fonts/khula/Khula-ExtraBold.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "telex";
+  src: url(/fonts/telex/Telex-Regular.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "modern";
+  src: url(/fonts/modern/theModernChaos.ttf);
+}
+@font-face {
+  font-family: "grafitti";
+  src: url(/fonts/grafiti/SterousDemoRegular.ttf);
+}
+header #header-top {
+  margin-top: 3px;
+  height: 35px;
+  width: 100%;
+  background-color: white;
+}
+header #header-top #header-top-text {
+  display: flex;
+  justify-content: center;
+  height: 35px;
+  width: 100%;
+  margin: 0;
+  font-size: 20px;
+  font-family: "kanit-light";
+  margin: 0;
+}
+header .navbar-dark {
+  background-color: black;
+  position: relative;
+}
+header .navbar-dark .navbar-brand {
+  margin: 0;
+}
+header .navbar-dark .navbar-brand img {
+  position: absolute;
+  bottom: 22px;
+  width: 50px;
+  margin-left: 10px;
+}
+header .navbar-dark .dropdown-menu {
+  width: 100%;
+  background-color: black;
+  margin: 0;
+  border-radius: 0;
+  margin: 0;
+  border: solid 10px white;
+}
+header .navbar-dark .dropdown-menu h3 {
+  color: white;
+  font-family: "kanit";
+  font-size: 22px;
+  margin: 10px 0px 15px 0px;
+}
+header .navbar-dark .dropdown-menu .list-group {
+  display: inline-block;
+  --bs-list-group-bg: black;
+}
+header .navbar-dark .dropdown-menu .list-group a {
+  color: white;
+  font-family: "kanit";
+  font-size: 18px;
+  position: relative;
+}
+header .navbar-dark .dropdown-menu .list-group a:hover {
+  color: #ff6712;
+}
+header .navbar-dark .dropdown-menu .list-group a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  top: 40px;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+header .navbar-dark .dropdown-menu .list-group a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+header .navbar-dark .navbar-nav .nav-link {
+  margin: 0px 15px 0px 15px;
+  color: white;
+  text-decoration: none;
+  font-family: "Kanit";
+  font-size: 20px;
+}
+header .navbar-dark .navbar-nav .nav-link:hover {
+  color: #ff6712;
+}
+
+@font-face {
+  font-family: "kanit";
+  src: url(/fonts/kanit/Kanit-ExtraLight.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "kanit-light";
+  src: url(/fonts/kanit/Kanit-Light.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "kanit-semiBold";
+  src: url(/fonts/kanit/Kanit-SemiBold.ttf);
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "khula";
+  src: url(/fonts/khula/Khula-ExtraBold.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "telex";
+  src: url(/fonts/telex/Telex-Regular.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "modern";
+  src: url(/fonts/modern/theModernChaos.ttf);
+}
+@font-face {
+  font-family: "grafitti";
+  src: url(/fonts/grafiti/SterousDemoRegular.ttf);
+}
+#bg-carousel {
+  margin: 20px;
+  z-index: 1;
+  position: relative;
+}
+@media (min-width: 1920px) {
+  #bg-carousel .carousel-item img {
+    width: 100%;
+  }
+}
+#bg-carousel .carousel-item .bg-c-item-01 h2 {
+  text-align: center;
+  font-family: "modern";
+  font-size: 80px;
+  color: white;
+}
+#bg-carousel .carousel-item .bg-c-item-02 h2 {
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: "kanit-light";
+  font-size: 60px;
+  width: 30%;
+}
+#bg-carousel .carousel-item .bg-c-item-02 h2 span {
+  text-align: start;
+  color: #ff6712;
+}
+#bg-carousel .carousel-item .bg-c-item-03 h2 {
+  display: inline-block;
+  text-align: center;
+  font-family: "grafitti";
+  font-size: 80px;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  backdrop-filter: blur(2px);
+}
+@media (max-width: 1345px) {
+  #bg-carousel .carousel-item .carousel-caption h2 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 855px) {
+  #bg-carousel .carousel-item .carousel-caption h2 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 1555px) {
+  #bg-carousel .carousel-item .bg-c-item-02 h2 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 1000px) {
+  #bg-carousel .carousel-item .bg-c-item-02 h2 {
+    font-size: 30px;
+  }
+}
+
+@font-face {
+  font-family: "kanit";
+  src: url(/fonts/kanit/Kanit-ExtraLight.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "kanit-light";
+  src: url(/fonts/kanit/Kanit-Light.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "kanit-semiBold";
+  src: url(/fonts/kanit/Kanit-SemiBold.ttf);
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "khula";
+  src: url(/fonts/khula/Khula-ExtraBold.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "telex";
+  src: url(/fonts/telex/Telex-Regular.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "modern";
+  src: url(/fonts/modern/theModernChaos.ttf);
+}
+@font-face {
+  font-family: "grafitti";
+  src: url(/fonts/grafiti/SterousDemoRegular.ttf);
+}
+.bg-nopadding [class*=col-] {
+  padding: 0;
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+}
+
+@media (min-width: 1920px) {
+  .bg-offers img {
+    width: 100%;
+  }
+}
+.bg-offers a {
+  padding: 2px 20px;
+  border: 2px solid #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  transition: all 0.45s;
+}
+
+.ag-margin img {
+  border: 20px solid white;
+  display: block;
+  width: 100%;
+}
+.ag-margin .bg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  font-family: "Kanit", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.55s;
+  background: rgba(0, 0, 0, 0.5254901961);
+}
+.ag-margin .bg-overlay .bg-b-title {
+  font-size: 40px;
+  font-weight: bold;
+}
+.ag-margin .bg-overlay .bg-i-description {
+  text-align: center;
+  width: 1000px;
+  font-family: "telex";
+  font-size: 1.25em;
+  margin-top: 0.25em;
+}
+.ag-margin .bg-overlay .bg-i-description span {
+  color: #ff6712;
+}
+@media (max-width: 1600px) {
+  .ag-margin .bg-overlay .bg-i-description {
+    width: 500px;
+  }
+}
+@media (max-width: 1000px) {
+  .ag-margin .bg-overlay .bg-b-title {
+    font-size: 30px;
+  }
+  .ag-margin .bg-overlay .bg-i-description {
+    width: 300px;
+    font-size: 1em;
+  }
+}
+@media (max-width: 500px) {
+  .ag-margin .bg-overlay .bg-b-title {
+    font-size: 23px;
+  }
+  .ag-margin .bg-overlay .bg-i-description {
+    width: 300px;
+    font-size: 0.8em;
+  }
+}
+.ag-margin .bg-overlay a {
+  padding: 1px 20px;
+  border: 2px solid #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  transition: all 0.45s;
+}
+.ag-margin .bg-overlay a:hover {
+  border: 2px solid #ff6712;
+  color: rgb(180, 180, 180);
+}
+.ag-margin .bg-overlay:hover {
+  opacity: 1;
+}
+.ag-margin .bg-overlay:hover > * {
+  transform: translateY(0);
+}
+.ag-margin .bg-overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.55s;
+}
+
+@font-face {
+  font-family: "kanit";
+  src: url(/fonts/kanit/Kanit-ExtraLight.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "kanit-light";
+  src: url(/fonts/kanit/Kanit-Light.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "kanit-semiBold";
+  src: url(/fonts/kanit/Kanit-SemiBold.ttf);
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "khula";
+  src: url(/fonts/khula/Khula-ExtraBold.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "telex";
+  src: url(/fonts/telex/Telex-Regular.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "modern";
+  src: url(/fonts/modern/theModernChaos.ttf);
+}
+@font-face {
+  font-family: "grafitti";
+  src: url(/fonts/grafiti/SterousDemoRegular.ttf);
+}
+#footer {
+  background-color: black;
+}
+#footer .bg-footer h5 {
+  font-family: "kanit-light";
+  font-size: 25px;
+  color: #ff6712;
+}
+#footer .bg-footer ul li a {
+  font-family: "telex";
+  font-size: 16px;
+  display: inline;
+  color: white;
+  position: relative;
+}
+#footer .bg-footer ul li a:hover {
+  color: #ff6712;
+}
+#footer .bg-footer ul li a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  top: 20px;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+#footer .bg-footer ul li a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+#footer .bg-footer ul .bd-a a:hover {
+  color: rgb(255, 80, 80);
+  text-shadow: none;
+}
+#footer .bg-icons-footer .bi {
+  color: white;
+}
+#footer .bg-icons-footer .bi:hover {
+  color: #ff6712;
+}
+#footer .bg-newsletter h6 {
+  font-family: "kanit-light";
+  font-size: 25px;
+  color: white;
+}
+#footer .bg-newsletter p {
+  color: rgb(150, 150, 150);
+}
+#footer .bg-copyright p {
+  font-family: "kanit-light";
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+}
+#footer .bg-copyright p span {
+  color: #ff6712;
+  transition: all 0.6s ease;
+}
+#footer .bg-copyright p span:hover {
+  margin: 0px 25px 0px 25px;
+  transition: all 0.4s 0s ease;
+  text-shadow: 1px 1px 25px white;
+}
+
+@font-face {
+  font-family: "kanit";
+  src: url(/fonts/kanit/Kanit-ExtraLight.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "kanit-light";
+  src: url(/fonts/kanit/Kanit-Light.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "kanit-semiBold";
+  src: url(/fonts/kanit/Kanit-SemiBold.ttf);
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "khula";
+  src: url(/fonts/khula/Khula-ExtraBold.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "telex";
+  src: url(/fonts/telex/Telex-Regular.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "modern";
+  src: url(/fonts/modern/theModernChaos.ttf);
+}
+@font-face {
+  font-family: "grafitti";
+  src: url(/fonts/grafiti/SterousDemoRegular.ttf);
+}
+#offcanvasRight {
+  width: 500px;
+}
+#offcanvasRight .offcanvas-header h3 {
+  font-size: 20px;
+}
+#offcanvasRight .offcanvas-body {
+  padding: 0px;
+  margin: 15px;
+}
+#offcanvasRight #offcanvas-footer {
+  position: absolute;
+  bottom: 0;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 15px;
+}
+#offcanvasRight #offcanvas-footer #bg-price-offcanvas h3 {
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+#offcanvasRight #offcanvas-footer #bg-price-offcanvas #bg-buy-offcanvas {
+  text-align: center;
+  width: 90%;
+  font-size: 10px;
+}
+
+#bg-container-offcanvas {
+  margin-top: 20px;
+  height: 680px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.bg-offcanvas-card {
+  margin: 5px;
+  border: solid 10px white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.bg-offcanvas-card .bg-offcanvas-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.bg-offcanvas-card .bg-offcanvas-name button {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+}
+.bg-offcanvas-card .bg-offcanvas-remove {
+  display: flex;
+  justify-content: end;
+}
+.bg-offcanvas-card .bg-offcanvas-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.bg-offcanvas-card .bg-offcanvas-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.bg-offcanvas-card .bg-offcanvas-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.bg-offcanvas-card .bg-offcanvas-buttons button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+}
+.bg-offcanvas-card .bg-offcanvas-total {
+  display: flex;
+  justify-content: end;
+}
+.bg-offcanvas-card .bg-offcanvas-total h3 {
+  font-family: kanit-light;
+  font-size: 20px;
+}
+
+@font-face {
+  font-family: "kanit";
+  src: url(/fonts/kanit/Kanit-ExtraLight.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "kanit-light";
+  src: url(/fonts/kanit/Kanit-Light.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "kanit-semiBold";
+  src: url(/fonts/kanit/Kanit-SemiBold.ttf);
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "khula";
+  src: url(/fonts/khula/Khula-ExtraBold.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "telex";
+  src: url(/fonts/telex/Telex-Regular.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "modern";
+  src: url(/fonts/modern/theModernChaos.ttf);
+}
+@font-face {
+  font-family: "grafitti";
+  src: url(/fonts/grafiti/SterousDemoRegular.ttf);
+}
+#bg-buttons-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#bg-buttons-header #barra_de_busqueda {
+  position: absolute;
+  right: 200px;
+  width: 300px;
+  height: 38px;
+  border: none;
+  border-radius: 10px;
+}
+#bg-buttons-header #barra_de_busqueda::-webkit-search-results-decoration {
+  display: none;
+}
+#bg-buttons-header #barra_de_busqueda::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+#bg-buttons-header #barra_de_busqueda::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+#bg-buttons-header #barra_de_busqueda::-webkit-search-decoration {
+  display: none;
+}
+#bg-buttons-header #barra_de_busqueda::-webkit-search-cancel-button {
+  display: none;
+}
+#bg-buttons-header #barra_de_busqueda::-webkit-search-results-button {
+  display: none;
+}
+#bg-buttons-header #barra_de_busqueda:focus {
+  outline: none;
+}
+#bg-buttons-header #limpiar_busqueda {
+  margin-right: 10px;
+  z-index: 6;
+  width: 40px;
+  height: 40px;
+}
+#bg-buttons-header #boton_buscar {
+  z-index: 5;
+  width: 40px;
+  height: 40px;
+}
+#bg-buttons-header #bg-bag {
+  width: 40px;
+  height: 40px;
+}
+#bg-buttons-header #bg-bag .badge {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+}
+
+@font-face {
+  font-family: "kanit";
+  src: url(/fonts/kanit/Kanit-ExtraLight.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "kanit-light";
+  src: url(/fonts/kanit/Kanit-Light.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "kanit-semiBold";
+  src: url(/fonts/kanit/Kanit-SemiBold.ttf);
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "khula";
+  src: url(/fonts/khula/Khula-ExtraBold.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "telex";
+  src: url(/fonts/telex/Telex-Regular.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "modern";
+  src: url(/fonts/modern/theModernChaos.ttf);
+}
+@font-face {
+  font-family: "grafitti";
+  src: url(/fonts/grafiti/SterousDemoRegular.ttf);
+}
+#sweetAlertToast {
+  width: 360px;
+  height: 150px;
+}
+
+/*-----------------------------*/
+/*-------------Base-------------*/
+@font-face {
+  font-family: "kanit";
+  src: url(/fonts/kanit/Kanit-ExtraLight.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "kanit-light";
+  src: url(/fonts/kanit/Kanit-Light.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "kanit-semiBold";
+  src: url(/fonts/kanit/Kanit-SemiBold.ttf);
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "khula";
+  src: url(/fonts/khula/Khula-ExtraBold.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "telex";
+  src: url(/fonts/telex/Telex-Regular.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "modern";
+  src: url(/fonts/modern/theModernChaos.ttf);
+}
+@font-face {
+  font-family: "grafitti";
+  src: url(/fonts/grafiti/SterousDemoRegular.ttf);
+}
+/*-----------------------------*/
+/*-------------Secondary------------*/
+.bg-c-b {
+  background-color: rgb(240, 240, 240);
+}
+
+.bg-urban {
+  display: inline;
+  transition: all 0.6s;
+}
+.bg-urban:hover {
+  transition: all 0.3s;
+  text-shadow: -2px 0px 5px rgba(0, 81, 255, 0.6);
+}
+
+.bg-nomad {
+  display: inline;
+  transition: all 0.6s;
+}
+.bg-nomad:hover {
+  transition: all 0.3s;
+  text-shadow: -2px 0px 5px rgba(255, 103, 18, 0.6);
+}
+
+.bg-outfit-card {
+  background-color: white;
+  border: 20px solid white;
+  border-radius: 20px;
+  transition: all 0.4s;
+  box-shadow: 1px 11px 21px -1px rgba(0, 0, 0, 0.1294117647);
+  margin-bottom: 30px;
+}
+.bg-outfit-card img {
+  border-radius: 20px;
+}
+.bg-outfit-card:hover {
+  box-shadow: 1px 11px 21px -1px rgba(0, 0, 0, 0.2549019608);
+  transform: translateY(-3%);
+}
+.bg-outfit-card .card-body a {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  color: #ff6712;
+}
+
+.nomad-banner {
+  border-radius: 20px;
+  max-width: 91.5%;
+}
+
+.tilting-card-wrapper {
+  position: relative;
+  aspect-ratio: 3/4.11;
+}
+.tilting-card-wrapper .mouse-position-tracker {
+  position: absolute;
+  width: 33.3333333333%;
+  height: 33.3333333333%;
+  z-index: 1;
+}
+.tilting-card-wrapper .tilting-card-body {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  --perspective: 1500px;
+  --rotationX: 0;
+  --rotationY: 0;
+  --rotationZ: 0;
+  --angle: 5deg;
+  transform: perspective(var(--perspective)) rotateX(var(--rotationX)) rotateY(var(--rotationY)) rotateZ(var(--rotationZ));
+  transition: transform 500ms ease;
+}
+.tilting-card-wrapper .tilting-card-body img {
+  max-width: 91.3%;
+  border-radius: 20px;
+  box-shadow: 1px 11px 21px -1px rgba(0, 0, 0, 0.1294117647);
+}
+
+/* 1st, 4th, 7th */
+.mouse-position-tracker:nth-child(3n-2) {
+  left: 0;
+}
+
+/* 2nd, 5th, 8th */
+.mouse-position-tracker:nth-child(3n-1) {
+  left: 33.3333333333%;
+}
+
+/* 2nd, 5th, 8th */
+.mouse-position-tracker:nth-child(3n) {
+  right: 0;
+}
+
+/* 4 to 6 */
+.mouse-position-tracker:nth-child(n+4):nth-child(-n+6) {
+  top: 33.3333333333%;
+}
+
+/* 7 to 9 */
+.mouse-position-tracker:nth-child(n+7):nth-child(-n+9) {
+  bottom: 0;
+}
+
+.mouse-position-tracker:nth-child(1):hover ~ .tilting-card-body {
+  --rotationX: var(--angle);
+  --rotationY: calc(var(--angle) * -1);
+}
+
+.mouse-position-tracker:nth-child(2):hover ~ .tilting-card-body {
+  --rotationX: var(--angle);
+}
+
+.mouse-position-tracker:nth-child(3):hover ~ .tilting-card-body {
+  --rotationX: var(--angle);
+  --rotationY: var(--angle);
+}
+
+.mouse-position-tracker:nth-child(4):hover ~ .tilting-card-body {
+  --rotationY: calc(var(--angle) * -1);
+}
+
+.mouse-position-tracker:nth-child(6):hover ~ .tilting-card-body {
+  --rotationY: var(--angle);
+}
+
+.mouse-position-tracker:nth-child(7):hover ~ .tilting-card-body {
+  --rotationY: calc(var(--angle) * -1);
+  --rotationX: calc(var(--angle) * -1);
+}
+
+.mouse-position-tracker:nth-child(8):hover ~ .tilting-card-body {
+  --rotationX: calc(var(--angle) * -1);
+}
+
+.mouse-position-tracker:nth-child(9):hover ~ .tilting-card-body {
+  --rotationY: var(--angle);
+  --rotationX: calc(var(--angle) * -1);
+}
+
+@font-face {
+  font-family: "kanit";
+  src: url(/fonts/kanit/Kanit-ExtraLight.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "kanit-light";
+  src: url(/fonts/kanit/Kanit-Light.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "kanit-semiBold";
+  src: url(/fonts/kanit/Kanit-SemiBold.ttf);
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "khula";
+  src: url(/fonts/khula/Khula-ExtraBold.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "telex";
+  src: url(/fonts/telex/Telex-Regular.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "modern";
+  src: url(/fonts/modern/theModernChaos.ttf);
+}
+@font-face {
+  font-family: "grafitti";
+  src: url(/fonts/grafiti/SterousDemoRegular.ttf);
+}
+.align-i {
+  display: flex;
+  justify-content: center;
+}
+
+.bg-card-wr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#bg-no-product {
+  margin-top: 10px;
+}
+#bg-no-product p {
+  display: flex;
+  justify-content: center;
+  font-family: "kanit-light";
+  font-size: 25px;
+  flex-direction: column;
+  height: 100px;
+  border: 20px solid white;
+  border-radius: 10px;
+  transition: all 0.4s;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin: 20px 10px 20px 10px;
+}
+#bg-no-product p:hover {
+  box-shadow: 1px 11px 21px -1px rgba(0, 0, 0, 0.3960784314);
+  transform: translateY(-4%);
+}
+
+.bg-card {
+  width: 18rem;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  border: 20px solid white;
+  border-radius: 10px;
+  transition: all 0.4s;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin: 20px 10px 20px 10px;
+}
+.bg-card:hover {
+  box-shadow: 1px 11px 21px -1px rgba(0, 0, 0, 0.3960784314);
+  transform: translateY(-3%);
+}
+.bg-card .card-body {
+  background-color: white;
+}
+.bg-card .card-body h4 {
+  font-family: "kanit";
+  font-size: 25px;
+}
+.bg-card .card-body span {
+  font-family: "kanit-light";
+  font-size: 17px;
+}
+.bg-card .card-body h5 {
+  font-family: "kanit-semibold";
+  font-size: 20px;
+}
+.bg-card .card-body a {
+  display: flex;
+  justify-content: center;
+  font-family: "kanit";
+  font-size: 18px;
+}
+
+.bg-button-share ul li a .bg-icon-share i {
+  color: black;
+}
+.bg-button-share ul li a .bg-text-share {
+  color: black;
+}
+
+.bg-color-pick ul {
+  list-style: none;
+}
+
+.main-sample-product {
+  margin-bottom: 120px;
+}
+
+.bg-product-image {
+  background-color: rgb(248, 249, 250);
+  border: solid 45px rgb(248, 249, 250);
+}
+
+.bg-product-info {
+  background-color: rgb(248, 249, 250);
+  border: solid 45px rgb(248, 249, 250);
+}
+.bg-product-info .bg-sku {
+  font-family: "kanit-light";
+  font-size: 15px;
+  color: rgb(126, 126, 126);
+}
+.bg-product-info .bg-prduct-title {
+  font-family: "kanit-light";
+  font-size: 50px;
+  color: #ff6712;
+}
+.bg-product-info .bg-product-price {
+  font-family: "kanit-semibold";
+  font-size: 25px;
+  color: rgb(71, 71, 71);
+}
+.bg-product-info .bg-prduct-caption {
+  width: 90%;
+  font-family: "telex";
+  font-size: 16px;
+  color: rgb(92, 92, 92);
+}
+
+.img-banner-off-container {
+  display: flex;
+  justify-content: center;
+}
+.img-banner-off-container .img-banner-off {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.input:checked ~ .checkmark {
+  background-color: #474747;
+}
+
+#bg-categories-container {
+  margin-top: 20px;
+  border: solid 15px white;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+#bg-categories-container h3 {
+  margin: 10px;
+  font-size: 20px;
+}
+#bg-categories-container .bg-categoria {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+#bg-categories-container .bg-categoria ul {
+  list-style: none;
+}
+#bg-categories-container .bg-box-scroll {
+  height: 200px;
+  width: auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  text-decoration: none;
+}
+
+#bg-pag {
+  margin: 80px;
+}
+#bg-pag ul li a {
+  color: black;
+}
+#bg-pag .bg-active a {
+  color: #ff6712;
+}
+
+.bg-filtro {
+  height: 40px;
+  font-family: kanit-light;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.bg-filtro button {
+  border-radius: 10px;
+  border: none;
+  height: 40px;
+  font-family: kanit-light;
+  background-color: white;
+  justify-content: center;
+  width: 100%;
+}
+.bg-filtro button:hover {
+  border-radius: 10px;
+  box-shadow: 1px 1px 21px -1px rgba(0, 0, 0, 0.1568627451);
+}
+.bg-filtro button:focus {
+  box-shadow: 1px 1px 21px -1px rgba(0, 0, 0, 0.1568627451);
+}
+.bg-filtro .dropdown-menu {
+  position: relative;
+  top: 30px;
+  border: none;
+  width: 100%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+.bg-filtro .dropdown-menu .boxed-check {
+  border: none;
+}
+
+@media screen and (max-width: 1500px) {
+  .bg-hidden-responsive {
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .bg-hidden-responsive-1 {
+    display: none;
+  }
+}
+@media screen and (max-width: 580px) {
+  .bg-hidden-responsive-2 {
+    display: none;
+  }
+}
+#faq h1 {
+  font-family: "kanit-light";
+  font-size: 70px;
+}
+#faq h2 {
+  font-family: "kanit";
+  font-size: 40px;
+}
+
+/*-----------------------------*/
+/*------------Global------------*/
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*-----------------------------*/
+
+/*# sourceMappingURL=style.css.map */

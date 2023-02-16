@@ -1,0 +1,89 @@
+@import "../base/colors";
+@import "../base/fonts";
+
+#footer {
+    background-color: black;
+    .bg-footer {
+        h5 {
+            font-family: 'kanit-light';
+            font-size: 25px;
+            color: $color-enfasisPrincipal;
+        }
+        ul {
+            li {
+                a {
+                    font-family: 'telex';
+                    font-size: 16px;
+                    display: inline;
+                    color: white;
+                    position: relative;
+                    &:hover {
+                        color: $color-enfasisPrincipal;
+                    }
+            
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        width: 100%;
+                        height: 2px;
+                        border-radius: 4px;
+                        background-color: #ffffff;
+                        top: 20px;
+                        left: 0;
+                        transform-origin: right;
+                        transform: scaleX(0);
+                        transition: transform 0.3s ease-in-out;
+                    }
+                    &:hover::before {
+                        transform-origin: left;
+                        transform: scaleX(1);
+                    }
+                }
+            }
+            .bd-a {
+                a {
+                    &:hover {
+                        color: rgb(255, 80, 80);
+                        text-shadow: none;
+                    }
+                }
+            }
+        }
+    }
+    .bg-icons-footer {
+        .bi {
+            color: white;
+            &:hover {
+                color: $color-enfasisPrincipal;
+            }
+        }
+    }
+    .bg-newsletter {
+        h6 {
+            font-family: 'kanit-light';
+            font-size: 25px;
+            color: white;
+        }
+
+        p {
+            color: rgb(150, 150, 150);
+        }
+    }
+    .bg-copyright {
+        p {
+            font-family: 'kanit-light';
+            font-size: 17px;
+            color: rgb(255, 255, 255);
+
+            span {
+                color: $color-enfasisPrincipal;
+                transition: all 0.6s ease;
+                &:hover {
+                    margin: 0px 25px 0px 25px;
+                    transition: all 0.4s 0s ease;
+                    text-shadow: 1px 1px 25px white;
+                }
+            }
+        }
+    }
+}

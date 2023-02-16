@@ -1,0 +1,257 @@
+@import '../base/colors';
+@import '../base/fonts';
+
+.align-i {
+    display: flex;
+    justify-content: center;
+}
+
+.bg-card-wr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#bg-no-product {
+    margin-top: 10px;
+    p{
+        display: flex;
+        justify-content: center;
+        font-family: 'kanit-light';
+        font-size: 25px;
+        flex-direction: column;
+        height: 100px;
+        border: 20px solid white;
+        border-radius: 10px;
+        transition: all 0.4s;
+        box-shadow: 0px 0px 10px #00000033;
+        margin: 20px 10px 20px 10px;
+        &:hover {
+            box-shadow: 1px 11px 21px -1px #00000065;
+            transform: translateY(-4%);
+        }
+    }
+    
+}
+
+.bg-card {
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    border: 20px solid white;
+    border-radius: 10px;
+    transition: all 0.4s;
+    box-shadow: 0px 0px 10px #00000033;
+    margin: 20px 10px 20px 10px;
+
+    &:hover {
+        box-shadow: 1px 11px 21px -1px #00000065;
+        transform: translateY(-3%);
+    }
+
+    .card-body {
+        background-color: white;
+        h4 {
+            font-family: 'kanit';
+            font-size: 25px;
+        }
+
+        span {
+            font-family: 'kanit-light';
+            font-size: 17px;
+        }
+
+        h5 {
+            font-family: 'kanit-semibold';
+            font-size: 20px;
+        }
+
+        a {
+            display: flex;
+            justify-content: center;
+            font-family: 'kanit';
+            font-size: 18px;
+        }
+    }
+}
+
+.bg-button-share {
+    ul {
+        li {
+            a {
+                .bg-icon-share {
+                    i {
+                        color: black;
+                    }
+                }
+
+                .bg-text-share {
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+
+.bg-color-pick {
+    ul {
+        list-style: none;
+    }
+}
+
+.main-sample-product {
+    margin-bottom: 120px;    
+}
+
+.bg-product-image {
+    background-color: rgb(248,249,250);
+    border: solid 45px rgb(248,249,250);
+}
+
+.bg-product-info {
+    background-color: rgb(248,249,250);
+    border: solid 45px  rgb(248,249,250);
+    .bg-sku {
+
+        font-family: 'kanit-light';
+        font-size: 15px;
+        color: rgb(126, 126, 126);
+    }
+
+    .bg-prduct-title {
+        font-family: 'kanit-light';
+        font-size: 50px;
+        color: $color-enfasisPrincipal;
+    }
+
+    .bg-product-price {
+        font-family: 'kanit-semibold';
+        font-size: 25px;
+        color: rgb(71, 71, 71);
+    }
+
+    .bg-prduct-caption {
+        width: 90%;
+        font-family: 'telex';
+        font-size: 16px;
+        color: rgb(92, 92, 92);
+    }
+}
+
+
+.img-banner-off-container{
+    display: flex;
+    justify-content: center;
+    .img-banner-off {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 0px 3px 10px #00000033;
+    }
+}
+
+.input:checked ~ .checkmark {
+    background-color: #474747;
+  }
+
+#bg-categories-container {
+    margin-top: 20px;
+    border: solid 15px white;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px #00000033;
+
+    h3 {
+        margin: 10px;
+        font-size: 20px;
+    }
+    .bg-categoria {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        ul {
+            list-style: none;
+        }    
+    }
+    .bg-box-scroll {
+        height: 200px;
+        width: auto;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        text-decoration: none;
+    }
+}
+
+
+#bg-pag {
+    margin: 80px;
+    ul {
+        li {
+            a {
+                color: black;
+            }
+        }
+    }
+    .bg-active {
+        a {
+            color: $color-enfasisPrincipal;
+        }
+    }
+}
+
+.bg-filtro {
+    height: 40px;
+    font-family: kanit-light;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #00000033;
+    button {
+        border-radius: 10px;
+        border: none;
+        height: 40px;
+        font-family: kanit-light;
+        background-color: white;
+        justify-content: center;
+        width: 100%;
+        &:hover {
+            border-radius: 10px;
+            box-shadow: 1px 1px 21px -1px #00000028;
+        }
+        &:focus {
+            box-shadow: 1px 1px 21px -1px #00000028;
+        }
+    }
+
+    .dropdown-menu {
+        position: relative;
+        top: 30px;
+        border: none;
+        width: 100%;
+        box-shadow: 0px 0px 10px #00000033;
+        background-color: white;
+        .boxed-check {
+            border: none;
+        }
+    }
+} 
+
+
+@media screen and (max-width: 1500px) {
+    .bg-hidden-responsive{
+    display:none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .bg-hidden-responsive-1{
+    display:none;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .bg-hidden-responsive-2{
+    display:none;
+    }
+}

@@ -1,0 +1,61 @@
+@import "../base/colors";
+@import "../base/fonts";
+
+
+#bg-buttons-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+	#barra_de_busqueda {
+		position: absolute;
+		right: 200px;
+		width: 300px;
+		height: 38px;
+		border: none;
+		border-radius: 10px;
+		&::-webkit-search-results-decoration { 
+			display: none; 
+		}
+		&::-ms-clear {
+			 display: none; width : 0; height: 0; 
+		}
+		&::-ms-reveal {
+			 display: none; width : 0; height: 0; 
+		}
+		&::-webkit-search-decoration { 
+			display: none; 
+		}
+		&::-webkit-search-cancel-button { 
+			display: none; 
+		}
+		&::-webkit-search-results-button { 
+			display: none; 
+		}
+		&:focus {
+			outline: none;
+		}
+	}
+	#limpiar_busqueda {
+		margin-right: 10px;
+		z-index: 6;
+		width: 40px;
+		height: 40px;
+	}
+
+	#boton_buscar {
+		z-index: 5;
+		width: 40px;
+		height: 40px;
+	}
+	#bg-bag {
+		width: 40px;
+		height: 40px;
+		.badge {
+			position: absolute;
+			top: 20px;
+			right: 25px;
+		}
+	}
+}

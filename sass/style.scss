@@ -1,0 +1,39 @@
+/*-------------Home-------------*/
+@import "components/01-header";
+@import "components/02-carousel";
+@import "components/03-main";
+@import "components/04-footer";
+@import "components/05-offcanvas";
+@import "components/06-search";
+@import "components/07-checkout";
+@import "components/08-sweetalert";
+/*-----------------------------*/
+
+
+/*-------------Base-------------*/
+@import "base/colors";
+@import "base/fonts";
+/*-----------------------------*/
+
+
+/*-------------Secondary------------*/
+@import "components-secondary/outfits-cards";
+@import "components-secondary/shop";
+@import "components-secondary/faq";
+/*-----------------------------*/
+
+
+/*------------Global------------*/
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+/*-----------------------------*/
+
+
+

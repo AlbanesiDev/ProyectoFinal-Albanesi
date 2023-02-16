@@ -1,0 +1,79 @@
+@import "../base/colors";
+@import "../base/fonts";
+
+#bg-carousel {
+    margin: 20px;
+    z-index: 1;
+    position: relative;
+    
+    .carousel-item {
+        @media (min-width: 1920px) {
+            img {
+                width: 100%;
+            }  
+        }
+
+        .bg-c-item-01 {
+            h2 {
+                text-align: center;
+                font-family: 'modern';
+                font-size: 80px;
+                color: white;
+            }
+        }
+
+        .bg-c-item-02 {
+            h2 {
+                margin-bottom: 50px;
+                text-align: center;
+                font-family: 'kanit-light';
+                font-size: 60px;
+                width: 30%;
+                span {
+                    text-align: start;
+                    color: $color-enfasisPrincipal;
+                }
+            }
+        }
+        .bg-c-item-03 {
+            h2 {
+                display: inline-block;
+                text-align: center;
+                font-family: 'grafitti';
+                font-size: 80px;
+                color: rgb(255, 255, 255);
+                border-radius: 10px;
+                backdrop-filter: blur(2px);
+            }
+        }
+        @media (max-width: 1345px) {
+            .carousel-caption {
+                h2 {
+                    font-size: 50px;
+                }
+            }
+        }
+        @media (max-width: 855px) {
+            .carousel-caption {
+                h2 {
+                    font-size: 35px;
+                }
+            }
+        }
+        @media (max-width: 1555px) {
+            .bg-c-item-02 {
+                h2 {
+                    font-size: 40px;
+                }
+            }
+        }
+        @media (max-width: 1000px) {
+            .bg-c-item-02 {
+                h2 {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
+
