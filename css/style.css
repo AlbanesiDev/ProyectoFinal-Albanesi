@@ -702,6 +702,23 @@ header .navbar-dark .navbar-nav .nav-link:hover {
   font-family: "grafitti";
   src: url(/fonts/grafiti/SterousDemoRegular.ttf);
 }
+#contenedor_checkout {
+  display: flex;
+  justify-content: center;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 680px;
+  margin-bottom: 20px;
+  border: solid 20px white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1254901961);
+}
+
+.input-group {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1254901961);
+  border: none;
+}
+
 #sweetAlertToast {
   width: 360px;
   height: 150px;

@@ -2,3 +2,21 @@
 @import "../base/fonts";
 
 
+#contenedor_checkout {
+    display: flex;
+    justify-content: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 680px;
+    margin-bottom: 20px;
+    border: solid 20px white;
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #00000020;
+}
+
+.input-group {
+    box-shadow: 0px 0px 10px #00000020;
+    border: none;
+
+}

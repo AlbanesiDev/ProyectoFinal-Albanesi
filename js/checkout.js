@@ -12,6 +12,11 @@ function finalizarCompra() {
     backdrop: `
     rgba(0,0,0,0.5)
     `,
+  }).then((result) => {
+    if (result.isConfirmed) {
+        window.location = "/index.html"
+        CompraFinalizada();
+    }
   });
 }
 
@@ -24,6 +29,5 @@ function CompraFinalizada() {
   localStorage.clear();
   carrito = [];
   contenedorCarrito.innerText = "";
-  renderizarCarrito();
 }
-CompraFinalizada();
+
