@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+    "id": 1,
     "nombre": "REMERA THE HUNDREDS FOREVER WILDFIRE",
     "sku": "rem_23",
     "color": "Bordo",
@@ -8,7 +8,7 @@
     "img": "/images/products/01-men/item-11.webp",
     "categoria": "remeras",
     "genero": "hombre",
-    "talle": "M"
+    "talle": "0"
   },
   {
     "id": 3,
@@ -34,29 +34,29 @@
   },
   {
     "id": 4,
-    "nombre": "JOCKEY THRASHER SNAPBACK",
+    "nombre": "GORRA JOCKEY MAG THRASHER",
     "sku": 0,
     "color": "verde",
     "precio": 2990,
     "img": "/images/products/03-shop/item-02.webp",
     "categoria": "gorras",
     "genero": "unisex",
-    "talle": "S"
+    "talle": "0"
   },
   {
     "id": 7,
-    "nombre": "POLERON FEXPRO PACMAN NEON LOGO",
+    "nombre": "BUZO FEXPRO PACMAN NEON LOGO",
     "sku": 0,
     "color": "negro",
     "precio": 12990,
     "img": "/images/products/03-shop/item-14 - copia.webp",
     "categoria": "buzos",
     "genero": "mujer",
-    "talle": "S"
+    "talle": "0"
   },
   {
     "id": 5,
-    "nombre": "JOCKEY THRASHER SNAPBACK MAG LOGO OLD",
+    "nombre": "GORRA JOCKEY THRASHER MAG LOGO OLD",
     "sku": 0,
     "color": "negro",
     "precio": 2990,
@@ -86,5 +86,226 @@
     "categoria": "zapatillas",
     "genero": "hombre",
     "talle": "40"
+  },
+  {
+    "id": 9,
+    "nombre": "BUZO RIPNDIP SENT FROM HEAVEN",
+    "sku": 0,
+    "color": "",
+    "precio": 89990,
+    "img": "/images/products/03-shop/item-01 - copia.webp",
+    "categoria": "buzos",
+    "genero": "",
+    "talle": ""
+  },
+  {
+    "id": 10,
+    "nombre": "ZAPATILLA CONVERSE CHUCK 70 HI THROWBACK CRAFT",
+    "sku": 0,
+    "color": "",
+    "precio": 67990,
+    "img": "/images/products/03-shop/item-01.webp",
+    "categoria": "zapatillas",
+    "genero": "",
+    "talle": ""
+  },
+  {
+    "id": 11,
+    "nombre": "REMERA VANS BOO KAY",
+    "sku": 0,
+    "color": "",
+    "precio": 24990,
+    "img": "/images/products/03-shop/item-03 - copia.webp",
+    "categoria": "remeras",
+    "genero": "MUJER",
+    "talle": ""
+  },
+  {
+    "id": 12,
+    "nombre": "GORRA JOCKEY DC GAS STATION",
+    "sku": 0,
+    "color": "",
+    "precio": 19.990,
+    "img": "/images/products/03-shop/item-15 - copia.webp",
+    "categoria": "gorras",
+    "genero": "",
+    "talle": ""
+  },
+  {
+    "id": 13,
+    "nombre": "ZAPATILLA PALLADIUM PAMPA HI UNLINED LII",
+    "sku": 0,
+    "color": "",
+    "precio": 47990,
+    "img": "/images/products/03-shop/item-08 - copia.webp",
+    "categoria": "zapatillas",
+    "genero": "",
+    "talle": ""
+  },
+  {
+    "id": 14,
+    "nombre": "REMERA RIPNDIP TASTES LIKE NERM",
+    "sku": 0,
+    "color": "",
+    "precio": 29990,
+    "img": "/images/products/03-shop/item-04.webp",
+    "categoria": "remeras",
+    "genero": "",
+    "talle": ""
+  },
+  {
+    "id": 15,
+    "nombre": "REMERA VANS SURF'S UPSIDE DOWN STRANGER THINGS",
+    "sku": 0,
+    "color": "",
+    "precio": 44990,
+    "img": "/images/products/03-shop/item-05 - copia.webp",
+    "categoria": "remeras",
+    "genero": "",
+    "talle": ""
+  },
+
+  {
+    "id": 16,
+    "nombre": "JACKET VANS HFC STRANGER THINGS",
+    "sku": 0,
+    "color": "",
+    "precio": 139990,
+    "img": "/images/products/03-shop/item-05.webp",
+    "categoria": "chaqueta",
+    "genero": "",
+    "talle": ""
+  },
+  {
+    "id": 17,
+    "nombre": "ZAPATILLA VANS OLD SKOOL UNISEX AMARILLO",
+    "sku": 0,
+    "color": "",
+    "precio": 41990,
+    "img": "/images/products/03-shop/item-06 - copia.webp",
+    "categoria": "zapatillas",
+    "genero": "",
+    "talle": ""
+  },
+  {
+    "id": 18,
+    "nombre": "REMERA ETNIES ICON PRINT ANIMAL",
+    "sku": 0,
+    "color": "",
+    "precio": 22990,
+    "img": "/images/products/03-shop/item-06.webp",
+    "categoria": "remeras",
+    "genero": "",
+    "talle": ""
+  },
+  {
+    "id": 19,
+    "nombre": "MEDIAS VANS STRANGER THINGS",
+    "sku": 0,
+    "color": "",
+    "precio": 14990,
+    "img": "/images/products/03-shop/item-07.webp",
+    "categoria": "medias",
+    "genero": "",
+    "talle": ""
+  },
+  {
+    "id": 20,
+    "nombre": "ZAPATILLA CONVERSE CHUCK 70",
+    "sku": 0,
+    "color": "",
+    "precio": 79990,
+    "img": "/images/products/03-shop/item-11 - copia.webp",
+    "categoria": "zapatillas",
+    "genero": "",
+    "talle": ""
+  },
+  {
+    "id": 21,
+    "nombre": "BEANIE NEW ERA NFL LAS VEGAS RAIDERS",
+    "sku": 0,
+    "color": "",
+    "precio": 27990,
+    "img": "/images/products/03-shop/item-08.webp",
+    "categoria": "gorras",
+    "genero": "",
+    "talle": ""
+  },
+  {
+    "id": 22,
+    "nombre": "MEDIAS STANCE ZURG (PIXAR)",
+    "sku": 0,
+    "color": "",
+    "precio": 16990,
+    "img": "/images/products/03-shop/item-09 - copia.webp",
+    "categoria": "medias",
+    "genero": "",
+    "talle": ""
+  },
+  {
+    "id": 23,
+    "nombre": "BUZO HUF BROKEN BONES",
+    "sku": 0,
+    "color": "",
+    "precio": 39990,
+    "img": "/images/products/03-shop/item-09.webp",
+    "categoria": "buzos",
+    "genero": "",
+    "talle": ""
+  },
+  {
+    "id": 24,
+    "nombre": "REMERA HUF INFINITY JEWEL",
+    "sku": 0,
+    "color": "",
+    "precio": 19990,
+    "img": "/images/products/03-shop/item-10.webp",
+    "categoria": "remeras",
+    "genero": "",
+    "talle": ""
+  },
+  {
+    "id": 25,
+    "nombre": "REMERA RIPNDIP NIKOLA EMBROIDERED",
+    "sku": 0,
+    "color": "",
+    "precio": 29990,
+    "img": "/images/products/03-shop/item-18.webp",
+    "categoria": "remeras",
+    "genero": "",
+    "talle": ""
+  },
+  {
+    "id": 26,
+    "nombre": "ZAPATILLA VANS ULTRARANGE EXO BLA",
+    "sku": 0,
+    "color": "",
+    "precio": 67990,
+    "img": "/images/products/03-shop/item-13 - copia.webp",
+    "categoria": "zapatillas",
+    "genero": "",
+    "talle": ""
+  },
+  {
+    "id": 27,
+    "nombre": "MEDIAS STANCE PLANTASTIC",
+    "sku": 0,
+    "color": "",
+    "precio": 29990,
+    "img": "/images/products/03-shop/item-12 - copia.webp",
+    "categoria": "medias",
+    "genero": "",
+    "talle": ""
+  },
+  {
+    "id": 28,
+    "nombre": "REMERA HUF REGAL POCKET",
+    "sku": 0,
+    "color": "",
+    "precio": 54990,
+    "img": "/images/products/03-shop/item-13.webp",
+    "categoria": "remeras",
+    "genero": "",
+    "talle": ""
   }
 ]
